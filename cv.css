@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jost:ital,wght@1,200&family=Paytone+One&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  font-family: 'Jost', sans-serif;
+  padding: 5px;
+}
+body{
+  background-image: url(imagen/fondo2.jpg);
+}
+.nav-contenedor a{
+  text-decoration:none;
+  border: 1px solid whitesmoke;
+  color: white;
+  font-weight: bold;
+}  
+.fila{
+  display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  flex-flow: row;
+  align-items: stretch;
+  flex-grow: initial;
+}
+.nav-contenedor {
+  overflow: hidden;
+}
+h1{
+  color: rgb(130, 124, 212);
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration:dotted;
+  font-family: 'Paytone One', sans-serif;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Paytone One', sans-serif;
+  color: lightgrey;
+}
+h3{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Paytone One', sans-serif;
+  text-align: left;
+  color: lightgrey;
+}
+li{
+  color: black;
+}
+#foto{
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+.columna-izquierda{
+  margin: 20px;
+  padding: 10px;
+}
+.lista{
+  text-align: left;
+}
+.card{
+  background-color: white;
+  opacity: 0.9;
+  justify-items: left;
+  text-align: start;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card1{
+  margin-top: 5px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: start;
+  padding: 30px;
+}
+.lolo{
+  color: white;
+  text-align: center;
+}
+.card2{
+  margin-top: 10px;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.card3{
+  margin-top: 20px;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.lista li{
+  text-decoration: dotted;
+}
+.columna-izquierda{
+  margin: 20px;
+  padding: 10px;
+}
+.card4{
+  margin-top: 10px;
+   align-content: center;
+   text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.datos{
+  margin-top: 10px;
+  align-content: center;
+  text-align: center;
+ background-color: white;
+ opacity: 0.9;
+ border-radius: 10px;
+ color: lightcoral;
+
+}
+.footer{
+  color: white;
+}
